@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/product.js"></script>
+<script src="../js/db.js"></script>
+<script src="../js/controller.js"></script>
+<link rel="stylesheet" href="../css/style.css">
+
+<body>
+
+    <div class="products">
+        
+            <ul id="prodcat">
+                    <li>
+                            <button id="addtype">Add Type of Product</button>
+                        </li>
+                <li>
+                    <a id="shoes" href="#"> Shoes</a>
+                </li>
+                <li>
+                    <a href="#"> Tracks</a>
+                </li>
+                
+            </li>
+
+        
+    </div>
+    <div>
+        <input class="cathide" type="text" id="categoryName" placeholder="Enter Category Name">
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <div>
+        <button id="uploadproducts">Upload New Products</button>
+
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div id="showshoes" class="shoehide">
+        <table id="createDatabase" class="shoes">
+            <tr>
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Product Image</th>
+                <th>Update</th>
+
+            </tr>
+            <tr >
+                
+
+            </tr>
+        </table>
+    </div>
+    <hr><hr><hr><hr>
+    <div><button id="userView">User View</button></div>
+
+
+   
+    <div>
+            <button id="clear">Clear LocalStorage</button>
+        </div>
+
+</body>
+
+</html>
